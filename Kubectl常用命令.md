@@ -6,6 +6,7 @@
 * kubectl get [kind] [name] -o yaml 查看某一个资源的yaml
 * kubectl describe [kind] [name] 查看资源的详细信息
 * kubectl apply -f [yaml] 
+* kubectl create [kind] [name]
 * kubectl logs -f [pod] 查看Pod的实时日志
 * kubectl exec [pod] -it bash 登录容器
 * kubectl edit 编辑资源
