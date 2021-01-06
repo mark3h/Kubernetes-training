@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: statefulset-test
+spec:
+  serviceName: headless-svc
+  replicas: 3
+  selector:
+    matchLabels:
+      app: headless-pod
+  template:
+    metadata:
+      labels:
+        app: headless-pod
+    spec:
+      containers:
+        - name: myhttpd
+          image: httpd
+          ports:
+            - containerPort: 80
