@@ -17,3 +17,4 @@
 * kubectl create configmap [name] --from-literal=ip='127.0.0.1'
 
 * b同学新增了一条
+* b同学又新增了一条
