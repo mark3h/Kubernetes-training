@@ -17,3 +17,4 @@
 * kubectl create configmap [name] --from-literal=ip='127.0.0.1'
 * b1
 * b2
+* b3
