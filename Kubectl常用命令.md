@@ -16,4 +16,4 @@
 * kubectl rollout undo [kind]/[name] --to-revision=[revision] 回滚到指定版本
 * kubectl create configmap [name] --from-literal=ip='127.0.0.1'
 * b1
-
+* b2
